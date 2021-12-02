@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--website header-->
+    <title>Chin Yung Ern (Aaron) Portfolio</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1" />
+    <!--For fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type=text/css href="default.css">
+
+    <link id="theme-style" rel="stylesheet" type="text/css" href="default.css">
+</head>
+
+<!--start of the main page-->
+
+<body>
+    <!--separating into different class and id to allow for identification and changes later on-->
+    <section class="s1">
+        <!--the header at the top center-->
+        <div class="main-container">
+            <div class="greeting-wrapper">
+                <h1>Hi, I'm Chin Yung Ern (Aaron)</h1>
+            </div>
+
+
+            <!--the 3 colorful dots-->
+            <div class="intro-wrapper">
+                <div class="nav-wrapper">
+
+
+                    <!-- Link around dots-wrapper added after tutorial video -->
+                    <a href="index.html">
+                        <div class="dots-wrapper">
+                            <div id="dot1" class="browser-dot"></div>
+                            <div id="dot2" class="browser-dot"></div>
+                            <div id="dot3" class="browser-dot"></div>
+                        </div>
+                    </a>
+
+                    <!--details on the top right to link to other pages later on-->
+                    <ul id="navigation">
+                        <li><a href="index.html">About-Me</a></li>
+                        <li><a href="School.html">School</a></li>
+                        <li><a href="Achievements.html">Achievements</a></li>
+                        <li><a href="Community.html">Community</a></li>
+                        <li><a href="Hobbies.html">Hobbies</a></li>
+                        <li><a href="Contact.html">Contact</a></li>
+                        <li><a href="index.html#contact">Get-in-Touch</a></li>
+                    </ul>
+                </div>
+
+                <!--left column which holds the image and the 4 dots to change the website colors-->
+                <div class="left-column">
+                    <img id="profile_pic" src="images/candid pic.jpg">
+                    <h5 style="text-align: center;line-height: 0;">Personalize Theme</h5>
+
+                    <!--creating the website color changing dots-->
+                    <div id="theme-options-wrapper">
+                        <div data-mode="light" id="light-mode" class="theme-dot"></div>
+                        <div data-mode="blue" id="blue-mode" class="theme-dot"></div>
+                        <div data-mode="green" id="green-mode" class="theme-dot"></div>
+                        <div data-mode="purple" id="purple-mode" class="theme-dot"></div>
+                    </div>
+
+                    <p id="settings-note">Theme settings will be saved for<br>your next visit</p>
+                </div>
+
+                <!--right column holding the info about the question - what drives me?-->
+                <div class="right-column">
+
+                    <div id="preview-shadow">
+                        <div id="preview">
+                            <div id="corner-tl" class="corner"></div>
+                            <div id="corner-tr" class="corner"></div>
+                            <h3>What Drives Me?</h3>
+                            <p>My goal is to use technology to improve our lives.</p>
+                            <div id="corner-br" class="corner"></div>
+                            <div id="corner-bl" class="corner"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="s2">
+        <div class="main-container">
+
+            <!--the details to talk about me-->
+            <div class="about-wrapper">
+                <div class="about-me">
+                    <h4>More about me</h4>
+                    <p>Hi, I am Aaron. I am a passionate individual who strives to do the best in everything I am given. My dream is to improve lives using technology, make a difference in a community, enhance people's lives, and make it something all will
+                        appreciate and benefit from.</p>
+                    <hr>
+
+                    <h4>TOP EXPERTISE</h4>
+
+                    <!--To link my resume so on click, it will show my pdf-->
+                    <p>Ui/UX Web Designer:<a href="Resume.pdf">Download Resume</a></p>
+
+                    <div id="skills">
+                        <ul>
+                            <li>Adobe illustrator</li>
+                            <li>HTML-CSS-Javascript</li>
+                            <li>Maya</li>
+                            <li>VMWare Workstation 15 Pro</li>
+                            <li>CISCO Packet Tracer</li>
+                        </ul>
+
+                        <ul>
+                            <li>Microsoft Power Apps</li>
+                            <li>Power Bi</li>
+                            <li>Event Planning</li>
+                            <li>Project Management</li>
+                            <li>Driven individual</li>
+                        </ul>
+
+                    </div>
+
+                </div>
+
+
+                <div class="social-links">
+                    <img id="social_img" src="images/linkedin page.PNG">
+                    <h3>Find me on LinkedIn & Github</h3>
+                    <a target="_blank" href="https://www.linkedin.com/in/aaroncye/">LinkedIn: https://www.linkedin.com/in/aaroncye/</a>
+                    <br>
+                    <a target="_blank" href="https://github.com/Aaroncye">Github: https://github.com/Aaroncye</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="s1">
+        <div class="main-container">
+            <h3 style="text-align:center;">Some of my past projects</h3>
+
+            <div class="post-wrapper">
+
+                <div>
+                    <div class="post">
+                        <img class="thumbnails" src="images/candid pic.jpg">
+                        <div class="post-preview">
+                            <h6 class="post-title">D+ App Icon</h6>
+                            <p class="post-intro">Designed built & mantained a the lab managment system for FOI Laboratories</p>
+                            <a href="D+ App Icon.html">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="post">
+                        <img class="thumbnails" src="images/candid pic.jpg">
+                        <div class="post-preview">
+                            <h6 class="post-title">D+ App Load Up Page</h6>
+                            <p class="post-intro">Online store with paypal payments intergration and guest user shopping</p>
+                            <a href="D+ App Load Up Page.html">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="post">
+                        <img class="thumbnails" src="images/candid pic.jpg">
+                        <div class="post-preview">
+                            <h6 class="post-title">Kueh Drawings</h6>
+                            <p class="post-intro">Modulized guide for online courses with step by step intructions</p>
+                            <a href="Kueh Drawings.html">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="s2">
+        <div class="main-container">
+            <h3 style="text-align:center;">Get in Touch with Me!</h3>
+
+            <form id="contact-form">
+                <a name="contact"></a>
+
+                <label>Name</label>
+                <input class="input-field" type="text" value="Include your name here!">
+
+                <label>Subject</label>
+                <input class="input-field" type="text" value="The subject you liked to speak about?">
+
+                <label>Email</label>
+                <input class="input-field" type="text" value="Drop your email, so I can get back to you!">
+
+                <label>Message</label>
+                <textarea class="input-field" type="text" value="Message"></textarea>
+
+                <input id="submit-btn" type="submit" value="Send">
+            </form>
+        </div>
+    </section>
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
